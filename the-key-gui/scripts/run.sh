@@ -1,0 +1,4 @@
+cd ..
+ng serve
+
+$SHELL

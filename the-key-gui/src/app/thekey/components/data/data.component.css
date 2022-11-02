@@ -1,0 +1,29 @@
+h2 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #247ac7;
+}
+
+table.table {
+  width: 50%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #247ac7;
+  border-style: solid;
+  color: #000000;
+}
+
+table.table td, table.table th {
+  border-width: 2px;
+  border-color: #247ac7;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.table thead {
+  background-color: #247ac7;
+}
+
+.center {
+  margin-left: 35%;
+}

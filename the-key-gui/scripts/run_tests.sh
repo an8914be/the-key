@@ -1,0 +1,4 @@
+cd ..
+ng test
+
+$SHELL

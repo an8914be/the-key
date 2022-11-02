@@ -1,0 +1,19 @@
+<div class="center">
+  <h2>Word-Count-Map from the key academy blog</h2>
+
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Word</th>
+      <th>Count</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let word of blogPostData | keyvalue">
+      <td>{{word.key}}</td>
+      <td>{{word.value}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
