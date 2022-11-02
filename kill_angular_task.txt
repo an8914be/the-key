@@ -1,0 +1,5 @@
+netstat -ano | findstr :4200
+
+Then take the PID and put in 
+
+taskkill /PID 15940 /F
